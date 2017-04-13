@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Modules.iml" filepath="$PROJECT_DIR$/Modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/componentsContainer/componentscontainer.iml" filepath="$PROJECT_DIR$/componentsContainer/componentscontainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependency/dependency.iml" filepath="$PROJECT_DIR$/dependency/dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyTwo/dependencytwo.iml" filepath="$PROJECT_DIR$/dependencyTwo/dependencytwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/featureOne/featureOne.iml" filepath="$PROJECT_DIR$/featureOne/featureOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lowLevelDependency/lowleveldependency.iml" filepath="$PROJECT_DIR$/lowLevelDependency/lowleveldependency.iml" />
+    </modules>
+  </component>
+</project>
