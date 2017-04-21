@@ -4,11 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Modules.iml" filepath="$PROJECT_DIR$/Modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/componentsContainer/componentscontainer.iml" filepath="$PROJECT_DIR$/componentsContainer/componentscontainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/componentsContainer/componentsContainer.iml" filepath="$PROJECT_DIR$/componentsContainer/componentsContainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependency/dependency.iml" filepath="$PROJECT_DIR$/dependency/dependency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dependencyTwo/dependencytwo.iml" filepath="$PROJECT_DIR$/dependencyTwo/dependencytwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyTwo/dependencyTwo.iml" filepath="$PROJECT_DIR$/dependencyTwo/dependencyTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/featureOne/featureOne.iml" filepath="$PROJECT_DIR$/featureOne/featureOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lowLevelDependency/lowleveldependency.iml" filepath="$PROJECT_DIR$/lowLevelDependency/lowleveldependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/featureTwo/featureTwo.iml" filepath="$PROJECT_DIR$/featureTwo/featureTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/featuresUri/featuresUri.iml" filepath="$PROJECT_DIR$/featuresUri/featuresUri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lowLevelDependency/lowLevelDependency.iml" filepath="$PROJECT_DIR$/lowLevelDependency/lowLevelDependency.iml" />
     </modules>
   </component>
 </project>

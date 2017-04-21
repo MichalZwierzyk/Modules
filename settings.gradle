@@ -1,1 +1,1 @@
-include ':app', ':featureOne', ':dependency', ':dependencyTwo', ':lowLevelDependency', ':componentsContainer'
+include ':app', ':featureOne', ':dependency', ':dependencyTwo', ':lowLevelDependency', ':componentsContainer', ':featureTwo', ':featuresUri'

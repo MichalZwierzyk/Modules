@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/dependency" />
             <option value="$PROJECT_DIR$/dependencyTwo" />
             <option value="$PROJECT_DIR$/featureOne" />
+            <option value="$PROJECT_DIR$/featureTwo" />
+            <option value="$PROJECT_DIR$/featuresUri" />
             <option value="$PROJECT_DIR$/lowLevelDependency" />
           </set>
         </option>

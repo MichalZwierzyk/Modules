@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">FeatureOne</string>
-    <string name="feature_name">Feature One</string>
+    <string name="feature_one_feature_name">Feature One</string>
+    <string name="feature_one_button_title">Go to Feature Two</string>
 </resources>

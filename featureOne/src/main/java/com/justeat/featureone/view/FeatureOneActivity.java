@@ -10,7 +10,8 @@ import com.justeat.featureone.R;
 import com.justeat.featureone.di.DaggerFeatureOneComponent;
 import com.justeat.featureone.di.FeatureOneComponent;
 import com.justeat.featureone.model.FeatureOneModel;
-import com.justeat.lowleveldependency.model.LowLevelDependencyModel;
+import com.justeat.featuresuri.model.FeaturesUri;
+import com.justeat.featuresuri.model.IntentSender;
 
 import javax.inject.Inject;
 
@@ -18,13 +19,13 @@ public class FeatureOneActivity extends Activity {
     @Inject FeatureOneModel featureOneModel;
     @Inject DependencyModel dependencyModel;
     @Inject DependencyTwoModel dependencyTwoModel;
-    @Inject LowLevelDependencyModel lowLevelDependencyModel;
+    @Inject IntentSender intentSender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_feature_one);
+        setUpView();
 
         FeatureOneComponent component = (FeatureOneComponent) ComponentsContainer.INSTANCE.get(FeatureOneActivity.class.getName());
 
@@ -34,6 +35,11 @@ public class FeatureOneActivity extends Activity {
         }
 
         component.inject(this);
+    }
+
+    private void setUpView() {
+        setContentView(R.layout.feature_one_activity_main);
+        findViewById(R.id.go_to_next_feature_button).setOnClickListener(v -> intentSender.sendIntent(this, FeaturesUri.FEATURE_TWO));
     }
 
     @Override
